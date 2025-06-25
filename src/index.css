@@ -207,10 +207,21 @@ hr {
 
 /* Projects */
 
+.navCont-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color:#121212;
+    height: 15vh;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
 .contProject {
     height: 85vh;
     width: 100vw;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     display: flex;
     position: relative;
     overflow: hidden;
@@ -225,6 +236,7 @@ hr {
 #scene2 {
     height: 100%;
     width: 100%;
+    background-color: #000000;
 }
 
 .projectOverlay {
@@ -435,4 +447,23 @@ p a {
     cursor: pointer;
     text-decoration: none;
     color: rgb(152, 156, 226);
+}
+
+
+/* About us page styling */
+
+.about-us{
+    width: 100vw;
+    height: 85vh;
+    background-color: #000000;
+    transform: scale(1);
+}
+
+#scene4{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #000000;
+    left: 70vh;
+    
 }

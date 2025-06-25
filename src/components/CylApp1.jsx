@@ -6,6 +6,7 @@ import Cyl1 from './Cyl1.jsx'
 function CylApp1() {
   return (
     <div className="cylWrapper">
+      <button className='newbtn' onClick={() => window.open("https://gym-site-devscrest.vercel.app/", "_blank")}>
       <Canvas flat camera={{ fov: 70 }}>
         <OrbitControls />
         <ambientLight />
@@ -22,10 +23,11 @@ function CylApp1() {
 
       {/* Button Below Canvas */}
       <div className="buttonContainer">
-        <button className='newbtn' onClick={() => window.open("https://gym-site-devscrest.vercel.app/", "_blank")}>
+        
           Visit Project
-        </button>
+        
       </div>
+      </button>
     </div>
   )
 }

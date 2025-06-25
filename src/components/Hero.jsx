@@ -10,7 +10,8 @@ export default function Hero() {
       <Nav />
       <div className="heroCont">
         <div className="model">
-          <Spline scene="/scene.splinecode" id='scene' />
+          {/* <Spline scene="/scene.splinecode" id='scene' /> */}
+          <Spline scene="/scene3.splinecode" id='scene3' />
         </div>
 
         <div className="info">

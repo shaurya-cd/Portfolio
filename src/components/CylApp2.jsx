@@ -6,6 +6,7 @@ import Cyl2 from './Cyl2.jsx'
 function CylApp2() {
   return (
     <div className="cylWrapper">
+      <button className='newbtn' onClick={() => window.open("https://mohito-junction.vercel.app/", "_blank")}>
       <Canvas flat camera={{ fov: 70 }}>
         <OrbitControls />
         <ambientLight />
@@ -22,10 +23,11 @@ function CylApp2() {
 
       {/* Button Below Canvas */}
       <div className="buttonContainer">
-        <button className='newbtn' onClick={() => window.open("https://mohito-junction.vercel.app/", "_blank")}>
+        
           Visit Project
-        </button>
+        
       </div>
+      </button>
     </div>
   )
 }

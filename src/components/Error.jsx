@@ -5,7 +5,7 @@ export default function Error() {
     return (
         <>
             <div className="errorCont">
-                <div className="model3">
+                <div className="model3" >
                     <Spline scene="/scene3.splinecode" id='scene3' />
                 </div>
 

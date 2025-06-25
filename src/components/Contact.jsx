@@ -1,10 +1,10 @@
 import Spline from '@splinetool/react-spline';
-import Nav3 from './Nav3'
+import Nav from './Nav'
 
 export default function Contact() {
   return (
     <>
-      <Nav3 />
+      <Nav />
       <div className="contactCont">
         <div className="model3">
           <Spline scene="/scene3.splinecode" id='scene3' />
