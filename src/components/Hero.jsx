@@ -17,13 +17,16 @@ export default function Hero() {
         <div className="info">
 
           <div className="title">
-            <div className="txt1">CREATIVE</div>
-            <div className="txt2">PORTFOLIO</div>
+            <div className="txt1">Beyond the Screen</div>
+            <div className="txt2">Digital Growth Engines for Real Businesses</div>
           </div>
-          <div className="subtitle">
-            Welcome to DevsCrest — where innovation meets functionality.
-            We specialize in crafting immersive 3D websites and powerful full-stack applications that help modern brands stand out in the digital world. Whether you're launching a new venture or scaling your digital capabilities, we turn bold ideas into seamless, high-performing web experiences.
-            Let’s build something extraordinary together.
+          <div className="subtitle" style={{fontSize:'1.2rem'}}>
+            We’re DevsCrest: From jaw-dropping portfolio sites to high-conversion tools like real-time
+            chat, landing pages, and social campaigns, we turn browsers into loyal customers. Every
+            solution is engineered to fill seats, boost orders, and scale your legacy—no fluff, just
+            measurable results. <br />
+            <b>Let’s architect your digital legacy together.</b>
+
           </div>
 
           <div className="interactions">

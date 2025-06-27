@@ -97,7 +97,6 @@ hr {
     padding-right: 3rem;
     padding-top: 1rem;
     padding: 1rem;
-
 }
 
 .CompanyName a {
@@ -196,12 +195,12 @@ hr {
 }
 
 .txt1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
 }
 
 .txt2 {
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -289,10 +288,10 @@ Canvas {
     padding: 12px 24px;
     font-size: 16px;
     cursor: pointer;
-    transition: transform 0.1s ease;
+    /* transition: transform 0.1s ease; */
 }
 
-.newbtn::after {
+/* .newbtn::after {
     content: "";
     position: absolute;
     top: 0;
@@ -311,7 +310,7 @@ Canvas {
 
 .newbtn:active {
     transform: translate(2px, 2px);
-}
+} */
 
 .newbtn a {
     color: white;
@@ -454,7 +453,7 @@ p a {
 
 .about-us{
     width: 100vw;
-    height: 85vh;
+    height: 120vh;
     background-color: #000000;
     transform: scale(1);
 }
@@ -467,3 +466,37 @@ p a {
     left: 70vh;
     
 }
+
+.info1{
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    height: 100%;
+    max-width: 50%;
+    padding-left: 6rem;
+}
+
+.txt3{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.ques{
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.ques h1{
+    font-size: 2rem;
+}
+
+.about-cont-list{
+    list-style: disc;
+    color: white;
+}
+
+
