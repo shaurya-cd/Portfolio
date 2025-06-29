@@ -15,7 +15,7 @@ function About() {
             <div className="info1">
 
           <div className="title1">
-            <div className="txt3">At DevsCrest, Businesses Meet Digital Excellence.</div>
+            <div className="txt3"><h1>About Us</h1><p>At DevsCrest, Businesses Meet Digital Excellence.</p></div>
           </div>
           <div className="subtitle" style={{fontSize:'1rem'}}>
             We exist to give ambitious local businesses the unfair advantage. By merging immersive 3D
@@ -33,13 +33,13 @@ function About() {
             <h1>Why Choose Us:</h1>
             <ul className="about-cont-list">
               <li>Student-Driven Agility: Fresh ideas, academic-edge tools, lower costs.</li>
-              <li>Industry-Specific Expertise: 50+ restaurant/gym projects with proven results.</li>
+              <li>Professional Expertise: Multiple restaurant/gym projects with proven results.</li>
               <li>All-in-One Growth Stack: From branding to real-time chat—no patchwork solutions.</li>
               <li>Zero-Risk Start: Free audit with a 1-page growth roadmap before you commit.</li>
             </ul>
           </div>
           <br />
-            <b style={{fontSize:'2rem',fontWeight:'900'}}>Let’s build more than a website—let’s build your digital dominance</b>
+            <b className="tagline1" style={{fontSize:'2rem',fontWeight:'900'}}>Let's build more than a website—let’s build your digital dominance</b>
           </div>
 
           </div>

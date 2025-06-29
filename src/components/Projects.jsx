@@ -13,14 +13,20 @@ function Projects() {
 
                 <div className="projectOverlay">
                     <div className="ov">
+                        <div className="project1">Gym Website</div>
                         <CylApp1 />
                     </div>
                     <div className="ov ov2"></div>
                     <div className="ov">
+                        <div className="project2">Restaurant Website</div>
                         <CylApp2 />
                     </div>
                 </div>
 
+            </div>
+
+            <div className="video-projects">
+                
             </div>
 
         </>

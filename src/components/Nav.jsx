@@ -6,7 +6,7 @@ function Nav() {
             <div className="navCont">
                 <div className="navLeft">
                     {/* <img src="#" className="logo" /> */}
-                    <div className="CompanyName"><Link to="/">DevsCrest</Link></div>
+                    <Link to="/"><div className="CompanyName">DevsCrest</div></Link>
                 </div>
                 <div className="navRight">
                     <Link className="link" to="/">Home</Link>

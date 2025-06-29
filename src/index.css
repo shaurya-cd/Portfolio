@@ -72,6 +72,7 @@
 
 .navRight {
     padding-left: 4rem;
+    font-weight: 600;
 }
 
 hr {
@@ -97,6 +98,11 @@ hr {
     padding-right: 3rem;
     padding-top: 1rem;
     padding: 1rem;
+    font-weight: 700;
+    font-size: max(2rem,1.5rem);
+    background: linear-gradient(90deg, #cc208e, #6713d2); /* Customize colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .CompanyName a {
@@ -122,7 +128,8 @@ hr {
     color: white;
     border: none;
     padding: 12px 24px;
-    font-size: 16px;
+    font-size: max(1rem,16px);
+    font-weight: 600;
     cursor: pointer;
     transition: transform 0.1s ease;
 }
@@ -239,6 +246,7 @@ hr {
 }
 
 .projectOverlay {
+    margin-top: 3rem;
     height: 100%;
     width: 100%;
     display: flex;
@@ -249,11 +257,17 @@ hr {
 .ov {
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 30%;
     z-index: 1;
     color: white;
+}
+
+.project1, .project2{
+    font-size: max(1.5rem,10px);
+    margin-bottom: -5rem;
 }
 
 #hehe {
@@ -403,7 +417,7 @@ Canvas {
 
 .c {
     color: white;
-    max-width: 33%;
+    max-width: 38%;
     height: 100%;
 }
 
@@ -458,6 +472,11 @@ p a {
     transform: scale(1);
 }
 
+.about-us h1{
+    margin-bottom: 1rem;
+    font-size: max(4vw,20px);
+}
+
 #scene4{
     position: absolute;
     width: 50%;
@@ -491,12 +510,18 @@ p a {
 }
 
 .ques h1{
-    font-size: 2rem;
+    font-size: max(2rem,15px);
 }
 
 .about-cont-list{
     list-style: disc;
     color: white;
+}
+
+.tagline1{
+    background: linear-gradient(90deg,#6713d2, #cc208e); /* Customize colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -563,7 +588,7 @@ p a {
 
     /* Projects */
     .contProject {
-        height: 88vh;
+        height: 100vh;
         flex-direction: column;
     }
 
@@ -572,7 +597,7 @@ p a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap:8rem
+        gap: 11rem
     }
 
     .model2{
@@ -622,7 +647,7 @@ p a {
     }
 
     .c11 {
-        font-size: 16px;
+        font-size: 12px;
         padding: 1.5rem;
         width: 100%;
         box-sizing: border-box;
@@ -698,6 +723,9 @@ p a {
         transform: translateX(-650px);
     }
 
+    .project1, .project2{
+        margin-bottom: -3rem;
+    }
 
     #scene3 canvas{
         position: absolute;

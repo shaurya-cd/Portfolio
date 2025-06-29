@@ -25,7 +25,7 @@ export default function Contact() {
                 <div class="info-block">
 
                   <h3>Email - &nbsp; </h3>
-                  <p><a href="mailto:devscrest@gmail.com">devscrest@gmail.com</a></p>
+                  <p><a href="mailto:Devscrest.Solutions@gmail.com">Devscrest.Solutions@gmail.com</a></p>
                 </div><br />
                 <div class="info-block">
                   <h3>Location -&nbsp; </h3>
@@ -33,7 +33,7 @@ export default function Contact() {
                 </div><br />
                 <div class="info-block">
                   <h3>Working Hours -&nbsp; </h3>
-                  <p>Mon - Fri: 10 AM – 7 PM IST</p>
+                  <p>Mon - Fri: 10 AM - 7 PM IST</p>
                 </div>
               </div>
             </div>
