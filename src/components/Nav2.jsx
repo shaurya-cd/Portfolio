@@ -27,14 +27,13 @@ function Nav2() {
                         <option value="" disabled>Projects</option>
                         <option value="/w-projects">Websites</option>
                         <option value="/v-projects">Videos</option>
-                        <option value="/d-projects">Graphic Designs</option>
-                        <option value="/branding">Branding</option>
+                        <option value="/branding">Branding Solutions</option>
+                        <option value="/d-projects">Social Media Marketing</option>
                     </select>
 
                     <button className='reachUs' id='btn1'><Link to="/contact">Reach Us</Link></button>
                 </div>
             </div>
-            {/* <hr /> */}
         </>
     )
 }
