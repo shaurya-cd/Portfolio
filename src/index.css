@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     scrollbar-width: none;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -73,6 +73,7 @@
 .navRight {
     padding-left: 4rem;
     font-weight: 600;
+    text-align: center;
 }
 
 hr {
@@ -230,7 +231,7 @@ hr {
     background-color: #121212;
     display: flex;
     position: relative;
-    overflow: hidden;
+    /* overflow-x: hidden; */
 }
 
 .model2 {
@@ -252,6 +253,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow:scroll;
 }
 
 .ov {
@@ -523,6 +525,92 @@ p a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#p-category{
+    width: 8rem;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+}
+
+option{
+    color: #c1c1c1;
+    font-weight: 600;
+    background-color: black;
+}
+
+/* Design Projects Styling */
+
+.video-projects{
+    height: 85vh;
+    background-color: #000000;
+    color: white;
+    padding: 3rem;
+}
+
+.v-title{
+    margin-top: -2rem;
+}
+
+.design-projects{
+    height: 85vh;
+    background-color: #000000;
+    color: white;
+}
+
+.v-content{
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.long-form{
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 30px;
+}
+
+.short-form{
+    overflow-x: scroll;
+    display: flex;
+    gap: 30px;
+}
+
+.branding{
+    height: 85vh;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

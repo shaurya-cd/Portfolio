@@ -24,11 +24,6 @@ function Projects() {
                 </div>
 
             </div>
-
-            <div className="video-projects">
-                
-            </div>
-
         </>
     )
 }
