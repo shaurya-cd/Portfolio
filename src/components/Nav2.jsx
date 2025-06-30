@@ -1,16 +1,27 @@
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+import { useRef } from 'react';
 
 function Nav2() {
 
-    const navigate = useNavigate();
-
-        const handleChange = (e) => {
-            const selectedRoute = e.target.value;
-            if (selectedRoute) {
-            navigate(selectedRoute);
-            }
-        }
+    const plinkRef = useRef()
+    
+            const menuClink = () => {
+                if (plinkRef.current) {
+                plinkRef.current.classList.toggle('show');
+    
+                gsap.from(plinkRef.current, {
+                    x: 10,
+                    duration: 0.4,
+                    ease: 'power2.out',
+                });
+                }
+            };
+    
+            const closeClick = () => {
+                if (plinkRef.current) {
+                plinkRef.current.classList.toggle('show');
+                }
+            };
 
     return (
         <>
@@ -23,13 +34,15 @@ function Nav2() {
                     <Link className="link" to="/">Home</Link>
                     <Link className='link' to="/about">About Us</Link>
                     
-                    <select name="p-category" id="p-category" onChange={handleChange} defaultValue="">
-                        <option value="" disabled>Projects</option>
-                        <option value="/w-projects">Websites</option>
-                        <option value="/v-projects">Videos</option>
-                        <option value="/branding">Branding Solutions</option>
-                        <option value="/d-projects">Social Media Marketing</option>
-                    </select>
+                    <div class="menu" onClick={menuClink}>Projects</div>
+
+                    <div class="ptlinks" ref={plinkRef}>
+                        <div class="close" onClick={closeClick}><i class="ri-close-large-fill"></i></div>
+                        <Link to='/w-projects'>Websites</Link>
+                        <Link to='/v-projects'>Videos</Link>
+                        <Link to='/branding'>Branding Solutions</Link>
+                        <Link to='/d-projects'>Social Media Marketing</Link>
+                    </div>
 
                     <button className='reachUs' id='btn1'><Link to="/contact">Reach Us</Link></button>
                 </div>
