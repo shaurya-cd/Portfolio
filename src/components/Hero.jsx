@@ -54,7 +54,7 @@ export default function Hero() {
 
           <div className="interactions">
             
-            <div className="menu" onClick={menuClick}><button className='reachUs' id='btn2'><Link to="/projects">See Projects</Link> </button></div>
+            <div className="menu" onClick={menuClick}><button className='reachUs' id='btn2'>See Projects</button></div>
 
                       <div className="ptlinks" ref={plinkRef}>
                         <div className="close" onClick={closeClick}><i class="ri-close-large-fill"></i></div>
