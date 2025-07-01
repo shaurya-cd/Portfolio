@@ -613,20 +613,31 @@ option{
     margin-top: 30px;
 }
 
+.contProject1{
+    height: 85vh;
+    width: 100vw;
+    background-color: #121212;
+    position: relative;
+}
+
 .projectOverlay1{
     padding: 8rem;
     padding-top: 2rem;
     height: 100%;
-    width: 100%;
+    width: 80%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     overflow:scroll;
 }
 
+.d-title{
+    color: white;
+    margin-left: 6rem;
+}
+
 .dshorn, .tf{
-    width: 20%;
-    height: 80%;
+    width: 18%;
+    height: 75%;
     z-index: 1;
     border: 5px solid wheat;
 }
@@ -670,7 +681,7 @@ option{
     right: 10px;
     color: white;
     text-align: left;
-    z-index: 2;
+    z-index: 99999;
 }
 
 .show a {
@@ -917,14 +928,21 @@ option{
         height: 140vh;
     }
 
+    .d-title{
+        margin-left: 1rem;
+    }
+
     .projectOverlay1{
         flex-direction: column;
-        gap:30%
+        gap:20%;
+        align-items: center;
+        margin-left: -6rem;
+        margin-top: -6rem;
     }
 
     .dshorn, .tf{
-        height: 50%;
-        width: 35%;
+        height: 25%;
+        width: 40%;
         margin-top: 7rem;
     }
 

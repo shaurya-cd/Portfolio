@@ -6,7 +6,7 @@ function Nav() {
 
         const plinkRef = useRef()
 
-        const menuClink = () => {
+        const menuClick = () => {
             if (plinkRef.current) {
             plinkRef.current.classList.toggle('show');
 
@@ -35,10 +35,10 @@ function Nav() {
                     <Link className="link" to="/">Home</Link>
                     <Link className='link' to="/about">About Us</Link>
 
-                    <div class="menu" onClick={menuClink}>Projects</div>
+                    <div className="menu" onClick={menuClick}>Projects</div>
 
-                    <div class="ptlinks" ref={plinkRef}>
-                        <div class="close" onClick={closeClick}><i class="ri-close-large-fill"></i></div>
+                    <div className="ptlinks" ref={plinkRef}>
+                        <div className="close" onClick={closeClick}><i class="ri-close-large-fill"></i></div>
                         <Link to='/w-projects'>Websites</Link>
                         <Link to='/v-projects'>Videos</Link>
                         <Link to='/branding'>Branding Solutions</Link>

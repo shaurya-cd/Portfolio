@@ -7,10 +7,14 @@ function D_projects() {
   return (
     <div className="d-projects">
         <Nav2 />
-
-        <div className="contProject sm1" id='projects'>
+        <div className="contProject1 sm1" id='projects'>
                 <div className="model2">
                     <Spline scene="/scene2.splinecode" id='scene2' />
+                </div>
+
+                <div className="d-title">
+                    <h1>Social Media Marketing</h1>
+                    <p>Turning social platforms into brand powerhouses.</p>
                 </div>
 
                 <div className="projectOverlay1">

@@ -21,17 +21,17 @@ export default function Contact() {
               <h2>Get in Touch</h2> <br />
               <p>We'd love to hear about your project. Whether you’re ready to start or just exploring, drop us a message.</p> <br />
 
-              <div class="contact-info">
-                <div class="info-block">
+              <div className="contact-info">
+                <div className="info-block">
 
                   <h3>Email - &nbsp; </h3>
                   <p><a href="mailto:Devscrest.Solutions@gmail.com">Devscrest.Solutions@gmail.com</a></p>
                 </div><br />
-                <div class="info-block">
+                <div className="info-block">
                   <h3>Location -&nbsp; </h3>
                   <p>India (Remote-friendly)</p>
                 </div><br />
-                <div class="info-block">
+                <div className="info-block">
                   <h3>Working Hours -&nbsp; </h3>
                   <p>Mon - Fri: 10 AM - 7 PM IST</p>
                 </div>
