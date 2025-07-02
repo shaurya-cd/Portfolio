@@ -8,26 +8,6 @@ function Nav() {
 
     const { setShowProjects } = useContext(StoreContext);
 
-        const plinkRef = useRef()
-
-        const menuClick = () => {
-            if (plinkRef.current) {
-            plinkRef.current.classList.toggle('show');
-
-            gsap.from(plinkRef.current, {
-                x: 10,
-                duration: 0.4,
-                ease: 'power2.out',
-            });
-            }
-        };
-
-        const closeClick = () => {
-            if (plinkRef.current) {
-            plinkRef.current.classList.toggle('show');
-            }
-        };
-
     return (
         <>
             <div className="navCont">

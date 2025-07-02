@@ -10,8 +10,6 @@ const StoreContextProvider = (props)=>{
         const contextValue = {
             showProjects,
             setShowProjects,
-            menuClick,
-            closeClick
         }
 
         return (
