@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
+import { useContext } from 'react';
+import { StoreContext } from '../context/StoreContext.jsx';
 
 
 function Nav() {
+
+    const { setShowProjects } = useContext(StoreContext);
 
         const plinkRef = useRef()
 
@@ -35,15 +39,8 @@ function Nav() {
                     <Link className="link" to="/">Home</Link>
                     <Link className='link' to="/about">About Us</Link>
 
-                    <div className="menu" onClick={menuClick}>Projects</div>
+                    <div className="menu" onClick={()=>setShowProjects(true)}>Projects</div>
 
-                    <div className="ptlinks" ref={plinkRef}>
-                        <div className="close" onClick={closeClick}><i class="ri-close-large-fill"></i></div>
-                        <Link to='/w-projects'>Websites</Link>
-                        <Link to='/v-projects'>Videos</Link>
-                        <Link to='/branding'>Branding Solutions</Link>
-                        <Link to='/d-projects'>Social Media Marketing</Link>
-                    </div>
 
                     <button className='reachUs' id='btn1'><Link to="/contact">Reach Us</Link></button>
                 </div>

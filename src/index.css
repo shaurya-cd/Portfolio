@@ -664,9 +664,6 @@ option{
     cursor: pointer;
 }
 
-.ptlinks{
-    display: none;
-}
 
 .show {
     display: flex;

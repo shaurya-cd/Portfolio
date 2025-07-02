@@ -2,36 +2,22 @@ import Spline from '@splinetool/react-spline';
 import Nav from './Nav';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
-
+import { useContext } from 'react';
+import { StoreContext } from '../context/StoreContext.jsx';
 
 export default function Hero() {
 
 
+      const { setShowProjects } = useContext(StoreContext);
+
       const plinkRef = useRef()
 
-        const menuClick = () => {
-            if (plinkRef.current) {
-            plinkRef.current.classList.toggle('show');
-
-            gsap.from(plinkRef.current, {
-                x: 10,
-                duration: 0.4,
-                ease: 'power2.out',
-            });
-            }
-        };
-
-        const closeClick = () => {
-            if (plinkRef.current) {
-            plinkRef.current.classList.toggle('show');
-            }
-        };
-
+      
 
   return (
     <>
 
-      <Nav />
+      <Nav/>
       <div className="heroCont">
         <div className="model">
           <Spline scene="/scene3.splinecode" id='scene3'/>
@@ -54,15 +40,7 @@ export default function Hero() {
 
           <div className="interactions">
             
-            <div className="menu" onClick={menuClick}><button className='reachUs' id='btn2'>See Projects</button></div>
-
-                      <div className="ptlinks" ref={plinkRef}>
-                        <div className="close" onClick={closeClick}><i class="ri-close-large-fill"></i></div>
-                        <Link to='/w-projects'>Websites</Link>
-                        <Link to='/v-projects'>Videos</Link>
-                        <Link to='/branding'>Branding Solutions</Link>
-                        <Link to='/d-projects'>Social Media Marketing</Link>
-                    </div>
+            <div className="menu" onClick={()=>setShowProjects(true)}><button className='reachUs' id='btn2'>See Projects</button></div>
 
           </div>
 
