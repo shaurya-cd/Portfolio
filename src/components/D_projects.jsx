@@ -1,15 +1,15 @@
 import Spline from '@splinetool/react-spline';
-import Nav2 from './Nav2';
+import Nav from './Nav';
 import dshorn from '../../public/dshorn.jpg'
 import tf from '../../public/tf.jpg'
 
 function D_projects() {
   return (
     <div className="d-projects">
-        <Nav2 />
+        <Nav />
         <div className="contProject1 sm1" id='projects'>
                 <div className="model2">
-                    <Spline scene="/scene2.splinecode" id='scene2' />
+                    <Spline scene="/scene3.splinecode" id='scene3'/>
                 </div>
 
                 <div className="d-title">

@@ -617,7 +617,7 @@ option{
 .contProject1{
     height: 85vh;
     width: 100vw;
-    background-color: #121212;
+    background-color: #000000;
     position: relative;
 }
 
@@ -629,6 +629,7 @@ option{
     display: flex;
     justify-content: space-between;
     overflow:scroll;
+    background-color: #000000;
 }
 
 .d-title{
@@ -922,7 +923,7 @@ option{
     }
 
     .d-projects{
-        height: 140vh;
+        height: auto;
     }
 
     .d-title{
@@ -930,11 +931,11 @@ option{
     }
 
     .projectOverlay1{
+        height: auto;
         flex-direction: column;
-        gap:20%;
         align-items: center;
         margin-left: -6rem;
-        margin-top: -6rem;
+
     }
 
     .dshorn, .tf{
