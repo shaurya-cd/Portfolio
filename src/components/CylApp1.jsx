@@ -20,13 +20,6 @@ function CylApp1() {
           />
         </EffectComposer>
       </Canvas>
-
-      {/* Button Below Canvas */}
-      <div className="buttonContainer">
-        
-          Visit Project
-        
-      </div>
       </button>
     </div>
   )
