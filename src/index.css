@@ -103,6 +103,11 @@ hr {
     font-size: max(2rem,1.5rem);
 }
 
+.CompanyName img{
+    width: 15rem;
+    margin-left: -15px;
+}
+
 .CompanyName a {
     font-size: 24px;
     text-decoration: none;
