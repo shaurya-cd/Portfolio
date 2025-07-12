@@ -246,7 +246,7 @@ hr {
     height: 100%;
     width: 100%;
     position: absolute;
-    transform: scale(0.7) translateX(-25%);
+    transform: scale(0.7) translateX(-25%) translateY(-20%);
 }
 
 #scene2 {
@@ -271,6 +271,14 @@ hr {
     width: 30%;
     z-index: 1;
     color: white;
+}
+
+.projectOverlayp5 {
+    width: 100%;
+}
+
+.ovp5{
+    width: 100%;
 }
 
 .project1, .project2{

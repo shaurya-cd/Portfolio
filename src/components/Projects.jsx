@@ -4,6 +4,7 @@ import CylApp2 from './CylApp2.jsx';
 import Nav from './Nav';
 import CylApp3 from './CylApp3.jsx';
 import CylApp4 from './CylApp4.jsx';
+import CylApp5 from './CylApp5.jsx';
 function Projects() {
     return (
         <>
@@ -33,6 +34,12 @@ function Projects() {
                     <div className="ov">
                         <div className="project2">Food App Admin Panel</div>
                         <CylApp4 />
+                    </div>
+                </div>
+                <div className="projectOverlay projectOverlayp5">
+                    <div className="ov ovp5">
+                        <div className="project1">Chat App</div>
+                        <CylApp5 />
                     </div>
                 </div>
 
